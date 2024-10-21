@@ -1,0 +1,92 @@
+.calculatorContainer {
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 15px;
+  padding-bottom: 0px;
+  border-radius: 15px;
+  background-color: lightgreen;
+  border: 20px ridge black;
+  box-shadow: 0px 0px 57px -10px rgba(0, 0, 0, 0.75);
+}
+.calculatorContainer > h2 {
+  height: 2rem;
+  margin: 10px 0 5px;
+}
+
+.calculatorContainer > input {
+  text-align: right;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 260px;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 1.5rem;
+}
+
+.btnsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 5px;
+}
+
+.btnsContainer > button,
+.btnResult > button {
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: rgba(245, 245, 245, 0.792);
+}
+.resContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  gap: 5px;
+}
+.btnResult {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnResult > button {
+  width: 120px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result {
+  border: 1px solid black;
+  background-color: aliceblue;
+  width: 100%;
+  padding: 0 10px;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.resultsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  /* border-radius: 10px; */
+  width: 250px;
+  margin: 5px;
+}
+
+.resultsContainer > h3 {
+  border: 1px solid black;
+  width: 250px;
+  margin: 0;
+}
